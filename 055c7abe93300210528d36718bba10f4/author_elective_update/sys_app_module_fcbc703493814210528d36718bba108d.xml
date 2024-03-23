@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Room Booking Task">70bc703493814210528d36718bba108a</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Room Booking Tasks</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1133380_hotel_0_room_booking_task</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1133380_hotel_0.room_booking_task_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-17 09:51:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fcbc703493814210528d36718bba108d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Room Booking Tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+        <sys_update_name>sys_app_module_fcbc703493814210528d36718bba108d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-17 09:51:07</sys_updated_on>
+        <timeline_page/>
+        <title>Room Booking Tasks</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hotel Management">055c7abe93300210528d36718bba10f4</application>
+        <file_path/>
+        <instance_id>5d061e10db827d54caf99027c596199c</instance_id>
+        <instance_name>dev189881</instance_name>
+        <name>sys_app_module_fcbc703493814210528d36718bba108d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Room Booking Task">70bc703493814210528d36718bba108a</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Room Booking Tasks</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1133380_hotel_0_room_booking_task</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_1133380_hotel_0.room_booking_task_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-17 09:51:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fcbc703493814210528d36718bba108d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Room Booking Tasks</sys_name><sys_overrides/><sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package><sys_policy/><sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope><sys_update_name>sys_app_module_fcbc703493814210528d36718bba108d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-17 09:51:07</sys_updated_on><timeline_page/><title>Room Booking Tasks</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-375958274</payload_hash>
+        <record_name>Room Booking Tasks</record_name>
+        <reverted_from/>
+        <source>c55c7abe93300210528d36718bba10f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-17 09:51:07</sys_created_on>
+        <sys_id>74bc703493814210528d36718bba1091</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e4bd274700000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-17 09:51:07</sys_updated_on>
+        <type>Module</type>
+        <update_guid>b8bc703464814210b01778b22c3a5c90</update_guid>
+        <update_guid_history>b8bc703464814210b01778b22c3a5c90:-375958274</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Room Booking Tasks">c54f357093c54210528d36718bba10f9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-17 14:41:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>1dd47ab1b3a942728af543edd5fb4999</sys_id>
+        <sys_metadata>fcbc703493814210528d36718bba108d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Room Booking Tasks</sys_name>
+        <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+        <sys_scope_delete display_value="">0073bd21a7d2468680003f90ed5b2b89</sys_scope_delete>
+        <sys_update_name>sys_app_module_fcbc703493814210528d36718bba108d</sys_update_name>
+        <sys_update_version display_value="sys_app_module_fcbc703493814210528d36718bba108d">74bc703493814210528d36718bba1091</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-17 14:41:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

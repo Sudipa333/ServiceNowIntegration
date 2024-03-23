@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e1d52fbe93f00210528d36718bba10c4" extends="task" label="Room Bookings" max_length="40" name="x_1133380_hotel_0_room_bookings" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Business Justification" max_length="40" name="u_business_justification" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="City" max_length="40" name="u_city" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Texas" sequence="0" value="Texas"/>
+                <element inactive_on_update="false" label="Newyork" sequence="1" value="Newyork"/>
+                <element inactive_on_update="false" label="Delhi" sequence="2" value="Delhi"/>
+                <element inactive_on_update="false" label="Hydrabad" sequence="3" value="Hydrabad"/>
+                <element inactive_on_update="false" label="Adelaide" sequence="4" value="Adelaide"/>
+                <element inactive_on_update="false" label="Perth" sequence="5" value="Perth"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Country" max_length="40" name="u_countries" type="string">
+            <choice>
+                <element inactive_on_update="false" label="USA" sequence="0" value="USA"/>
+                <element inactive_on_update="false" label="India" sequence="1" value="India"/>
+                <element inactive_on_update="false" label="Australia" sequence="2" value="Australia"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="From" mandatory="true" max_length="40" name="u_from" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Hotel Name" max_length="40" name="u_hotel_name" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Raddision" sequence="0" value="raddision"/>
+                <element inactive_on_update="false" label="Raddison" sequence="0" value="Raddisin"/>
+                <element inactive_on_update="false" label="Park Hyatt" sequence="1" value="park hyatt"/>
+                <element inactive_on_update="false" label="Mariott" sequence="2" value="mariott"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Number of Persons" max_length="40" name="u_number_of_persons" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive="true" inactive_on_update="true" label="6" sequence="0" value="6"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Number of Rooms" max_length="40" name="u_number_of_rooms" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Requested For" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="To" mandatory="true" max_length="40" name="u_to" type="glide_date"/>
+    </element>
+</database>

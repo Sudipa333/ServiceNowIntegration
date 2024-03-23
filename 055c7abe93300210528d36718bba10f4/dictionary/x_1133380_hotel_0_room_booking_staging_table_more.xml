@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="683f0f0493050210528d36718bba1090" extends="sys_import_set_row" label="Room Booking Staging Table more" max_length="40" name="x_1133380_hotel_0_room_booking_staging_table_more" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=From" label="From" max_length="40" name="u_from" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name of the country" label="Name of the country" max_length="40" name="u_name_of_the_country" type="string"/>
+        <element attributes="import_attribute_name=Number of persons" label="Number of persons" max_length="40" name="u_number_of_persons" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Request For" label="Request For" max_length="40" name="u_request_for" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=To" label="To" max_length="40" name="u_to" type="string"/>
+    </element>
+</database>

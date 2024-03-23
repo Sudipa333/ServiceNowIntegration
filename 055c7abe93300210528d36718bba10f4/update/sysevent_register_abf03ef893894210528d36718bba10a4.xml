@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <derived_priority>100</derived_priority>
+        <description>Changes all high and open to critical</description>
+        <event_name>x_1133380_hotel_0.high_to_critical</event_name>
+        <fired_by>Count of Records High and Open - scheduled script execution</fired_by>
+        <priority>100</priority>
+        <queue/>
+        <suffix>high_to_critical</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-17 18:21:43</sys_created_on>
+        <sys_id>abf03ef893894210528d36718bba10a4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_1133380_hotel_0.high_to_critical</sys_name>
+        <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+        <sys_update_name>sysevent_register_abf03ef893894210528d36718bba10a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-17 20:03:20</sys_updated_on>
+        <table>x_1133380_hotel_0_room_bookings</table>
+    </sysevent_register>
+</record_update>

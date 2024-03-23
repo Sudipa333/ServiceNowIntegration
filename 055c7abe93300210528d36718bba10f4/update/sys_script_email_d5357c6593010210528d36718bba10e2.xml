@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>Count_of_records_for_Requester</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    // Add your code here
+    var roomBookingScript = new GlideRecord('x_1133380_hotel_0_room_bookings');
+    roomBookingScript.addQuery('u_requested_for',current);
+	roomBookingScript.addQuery('state','!=','3');
+	roomBookingScript.query();
+	var roomCount = roomBookingScript.getRowCount()-1;
+	template.print('Apart from this request, there are '+roomCount+' room booking request which are not yet closed');
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 17:35:54</sys_created_on>
+        <sys_id>d5357c6593010210528d36718bba10e2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Count_of_records_for_Requester</sys_name>
+        <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+        <sys_update_name>sys_script_email_d5357c6593010210528d36718bba10e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 13:13:46</sys_updated_on>
+    </sys_script_email>
+</record_update>

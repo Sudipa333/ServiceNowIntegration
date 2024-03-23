@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Hotel Management">c1b37bfe93340210528d36718bba104a</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>room booking module for hotel management</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Room Bookings</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1133380_hotel_0_room_bookings</name>
+        <order>90</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1133380_hotel_0.admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-11 18:32:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>54f8377693740210528d36718bba10e3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Room Bookings</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+        <sys_update_name>sys_app_module_54f8377693740210528d36718bba10e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-14 16:47:16</sys_updated_on>
+        <timeline_page/>
+        <title>Room Bookings</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

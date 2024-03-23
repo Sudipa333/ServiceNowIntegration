@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Properties">aed8654293810210528d36718bba10aa</category>
+        <order>100</order>
+        <property display_value="x_1133380_hotel_0.hotelManagementState" name="x_1133380_hotel_0.hotelManagementState">e996698e93410210528d36718bba10e7</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 10:24:11</sys_created_on>
+        <sys_id>c4aaa5c293810210528d36718bba10ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1133380_hotel_0.hotelManagementState.Properties</sys_name>
+        <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_c4aaa5c293810210528d36718bba10ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:24:11</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

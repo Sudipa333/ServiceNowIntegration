@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="21f3a73e93f00210528d36718bba10f9" sys_domain="global" table="x_1133380_hotel_0_room_booking" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-11 16:57:27</sys_created_on>
+            <sys_id>27b4e77e93f00210528d36718bba106f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1133380_hotel_0_room_booking" sys_domain="global" view="Default view">21f3a73e93f00210528d36718bba10f9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-11 16:57:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-11 16:57:27</sys_created_on>
+            <sys_id>abb4e77e93f00210528d36718bba106f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1133380_hotel_0_room_booking" sys_domain="global" view="Default view">21f3a73e93f00210528d36718bba10f9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-11 16:57:27</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-11 16:57:27</sys_created_on>
+            <sys_id>2fb4e77e93f00210528d36718bba106f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1133380_hotel_0_room_booking" sys_domain="global" view="Default view">21f3a73e93f00210528d36718bba10f9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-11 16:57:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1133380_hotel_0_room_booking</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-11 16:54:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>21f3a73e93f00210528d36718bba10f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1133380_hotel_0_room_booking</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+            <sys_update_name>sys_ui_section_21f3a73e93f00210528d36718bba10f9</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-11 16:54:03</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hotel Management">055c7abe93300210528d36718bba10f4</application>
+        <file_path/>
+        <instance_id>5d061e10db827d54caf99027c596199c</instance_id>
+        <instance_name>dev189881</instance_name>
+        <name>sys_ui_section_21f3a73e93f00210528d36718bba10f9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="21f3a73e93f00210528d36718bba10f9" sys_domain="global" table="x_1133380_hotel_0_room_booking" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-11 16:57:27</sys_created_on><sys_id>27b4e77e93f00210528d36718bba106f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1133380_hotel_0_room_booking" sys_domain="global" view="Default view">21f3a73e93f00210528d36718bba10f9</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-11 16:57:27</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-11 16:57:27</sys_created_on><sys_id>abb4e77e93f00210528d36718bba106f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1133380_hotel_0_room_booking" sys_domain="global" view="Default view">21f3a73e93f00210528d36718bba10f9</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-11 16:57:27</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sys_created_on</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-11 16:57:27</sys_created_on><sys_id>2fb4e77e93f00210528d36718bba106f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1133380_hotel_0_room_booking" sys_domain="global" view="Default view">21f3a73e93f00210528d36718bba10f9</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-11 16:57:27</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1133380_hotel_0_room_booking</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-11 16:54:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>21f3a73e93f00210528d36718bba10f9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1133380_hotel_0_room_booking</sys_name><sys_overrides/><sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package><sys_policy/><sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope><sys_update_name>sys_ui_section_21f3a73e93f00210528d36718bba10f9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-11 16:54:03</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-908776742</payload_hash>
+        <record_name>Room Booking</record_name>
+        <reverted_from/>
+        <source>c55c7abe93300210528d36718bba10f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-11 16:57:27</sys_created_on>
+        <sys_id>2fb4e77e93f00210528d36718bba1071</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e2e729ebe0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-11 16:57:27</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>e3b4e77ee1f002107abe5893fd356471</update_guid>
+        <update_guid_history>e3b4e77ee1f002107abe5893fd356471:-908776742,35f3a73e35f002107ed95d559b4430fe:18678625,f5f3a73e08f002102a47c005dec47dfc:1602774128</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-11 17:06:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>13bc5136aaea4140820fbe43207a27d9</sys_id>
+        <sys_metadata>21f3a73e93f00210528d36718bba10f9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1133380_hotel_0_room_booking</sys_name>
+        <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+        <sys_parent display_value="">e4f3a73e93f00210528d36718bba1033</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+        <sys_scope_delete display_value="">0073bd21a7d2468680003f90ed5b2b89</sys_scope_delete>
+        <sys_update_name>sys_ui_section_21f3a73e93f00210528d36718bba10f9</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_21f3a73e93f00210528d36718bba10f9">2fb4e77e93f00210528d36718bba1071</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-11 17:06:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

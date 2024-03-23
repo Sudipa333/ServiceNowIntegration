@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>Room  Booking Transform Map</name>
+        <order>100</order>
+        <run_business_rules>false</run_business_rules>
+        <run_script>true</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+	var today = new GlideDateTime();
+	if(source.u_from == ''){
+		target.u_from = today.addDays(1);
+
+	}
+	if(source.u_to == ''){
+		target.u_to = today.addDays(2); 
+	}
+	if(source.u_request_for == ''){
+		target.u_requested_for = gs.getUserID();
+	}
+	if(source.u_number_of_persons == ''){
+		target.u_number_of_persons = 2;
+	}
+
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>x_1133380_hotel_0_room_booking_staging_table</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-15 09:26:14</sys_created_on>
+        <sys_id>5d936a4093010210528d36718bba1067</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Room  Booking Transform Map</sys_name>
+        <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+        <sys_update_name>sys_transform_map_5d936a4093010210528d36718bba1067</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-15 14:43:38</sys_updated_on>
+        <target_table>x_1133380_hotel_0_room_bookings</target_table>
+    </sys_transform_map>
+</record_update>

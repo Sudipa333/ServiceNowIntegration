@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app">
+    <sys_app action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <can_edit_in_studio>true</can_edit_in_studio>
+        <enforce_license>log</enforce_license>
+        <guided_setup_guid/>
+        <hide_on_ui>false</hide_on_ui>
+        <ide_created>AES</ide_created>
+        <installed_as_dependency>false</installed_as_dependency>
+        <js_level>es_latest</js_level>
+        <licensable>true</licensable>
+        <license/>
+        <license_category>none</license_category>
+        <license_definition/>
+        <license_model>none</license_model>
+        <logo>f55c727293300210528d36718bba102e</logo>
+        <menu/>
+        <name>Hotel Management</name>
+        <private>false</private>
+        <restrict_table_access>true</restrict_table_access>
+        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <scope>x_1133380_hotel_0</scope>
+        <scoped_administration>false</scoped_administration>
+        <short_description>Admin and development final project</short_description>
+        <source>x_1133380_hotel_0</source>
+        <store_correlation_id/>
+        <store_url/>
+        <subscription_entitlement/>
+        <sys_class_name>sys_app</sys_class_name>
+        <sys_code/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-11 14:00:52</sys_created_on>
+        <sys_id>055c7abe93300210528d36718bba10f4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-14 19:22:29</sys_updated_on>
+        <template/>
+        <trackable>true</trackable>
+        <uninstall_blocked>false</uninstall_blocked>
+        <user_role/>
+        <vendor/>
+        <vendor_prefix/>
+        <version>1.0.0</version>
+    </sys_app>
+    <sys_translated_text action="delete_multiple" query="documentkey=055c7abe93300210528d36718bba10f4"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>project cartoon food logo.jpg</file_name>
+        <hash>f814b0f18e681799a72411f01bae727ee14dc999afeb9033d0c5e2f465cf7ffe</hash>
+        <image_height>192</image_height>
+        <image_width>204</image_width>
+        <size_bytes>5723</size_bytes>
+        <size_compressed>5682</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-11 14:00:56</sys_created_on>
+        <sys_id>f55c727293300210528d36718bba102e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-11 14:00:56</sys_updated_on>
+        <table_name>sys_app</table_name>
+        <table_sys_id>055c7abe93300210528d36718bba10f4</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="project cartoon food logo.jpg" sys_id="f55c727293300210528d36718bba102e">f55c727293300210528d36718bba102e</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-11 14:00:56</sys_created_on>
+        <sys_id>395c727293300210528d36718bba102e</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>7564</length>
+        <position>1</position>
+        <sys_attachment display_value="project cartoon food logo.jpg" sys_id="f55c727293300210528d36718bba102e">f55c727293300210528d36718bba102e</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-11 14:00:56</sys_created_on>
+        <sys_id>b95c727293300210528d36718bba102e</sys_id>
+    </sys_attachment_doc>
+</record_update>
