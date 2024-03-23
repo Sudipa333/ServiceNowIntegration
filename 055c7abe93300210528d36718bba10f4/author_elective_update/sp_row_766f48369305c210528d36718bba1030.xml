@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_column/>
+        <sp_container display_value="Refresher Page - Container 3">360f84f29305c210528d36718bba10cc</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 11:41:08</sys_created_on>
+        <sys_id>766f48369305c210528d36718bba1030</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+        <sys_update_name>sp_row_766f48369305c210528d36718bba1030</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 11:41:08</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hotel Management">055c7abe93300210528d36718bba10f4</application>
+        <file_path/>
+        <instance_id>5d061e10db827d54caf99027c596199c</instance_id>
+        <instance_name>dev189881</instance_name>
+        <name>sp_row_766f48369305c210528d36718bba1030</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><semantic_tag/><sp_column/><sp_container display_value="Refresher Page - Container 3">360f84f29305c210528d36718bba10cc</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-23 11:41:08</sys_created_on><sys_id>766f48369305c210528d36718bba1030</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package><sys_policy/><sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope><sys_update_name>sp_row_766f48369305c210528d36718bba1030</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-23 11:41:08</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>1522709039</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>699db36e9381c210528d36718bba10a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 11:41:08</sys_created_on>
+        <sys_id>fa6f48369305c210528d36718bba1032</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e6b1d54c90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 11:41:08</sys_updated_on>
+        <type>Row</type>
+        <update_guid>326f4836ea05c2100a7dd44b15309532</update_guid>
+        <update_guid_history>326f4836ea05c2100a7dd44b15309532:1522709039</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">eb7f04b29305c210528d36718bba10e2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 11:41:28</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>12d24df727c342f8a73240e5cdc8fa40</sys_id>
+        <sys_metadata>766f48369305c210528d36718bba1030</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+        <sys_scope_delete display_value="">0073bd21a7d2468680003f90ed5b2b89</sys_scope_delete>
+        <sys_update_name>sp_row_766f48369305c210528d36718bba1030</sys_update_name>
+        <sys_update_version display_value="sp_row_766f48369305c210528d36718bba1030">fa6f48369305c210528d36718bba1032</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 11:41:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

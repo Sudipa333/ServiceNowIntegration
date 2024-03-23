@@ -8,22 +8,22 @@
         <local_or_existing>Local</local_or_existing>
         <name>x_1133380_hotel_0_room_bookings</name>
         <operation display_value="read">read</operation>
-        <script><![CDATA[if(gs.getUser().hasRole("x_1133380_hotel_0.admin") || gs.getUserID()== current.u_requested_for){
-	answer = true;
-}]]></script>
+        <script><![CDATA[// if( (gs.getUser().hasRole("x_1133380_hotel_0.admin") || //gs.getUserID()=='a8f98bb0eb32010045e1a5115206fe3a'||'d2826bf03710200044e0bfc8bcbe5dc9')){
+// 	answer = true;
+// }]]></script>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-11 17:02:18</sys_created_on>
         <sys_id>7ed5afbe93f00210528d36718bba100a</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>x_1133380_hotel_0_room_bookings</sys_name>
         <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
         <sys_update_name>sys_security_acl_7ed5afbe93f00210528d36718bba100a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-14 19:01:15</sys_updated_on>
+        <sys_updated_on>2024-03-23 16:47:23</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>
