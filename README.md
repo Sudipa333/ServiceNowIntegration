@@ -25,3 +25,13 @@ FLLOWINGS ARE THE DERSCRIPTION ABOUT HOTEL MANAGEMENT APPLICATION-----
 12. **Portal Development**: The creation of the 'Refresher' portal enriches user experience, offering features such as hotel image galleries, service catalog search functionality, room booking management, request approval, and note-taking capabilities, consolidating all hotel management tasks in a user-friendly interface.
 
 In summary, this project demonstrates a comprehensive approach to hotel management leveraging the capabilities of the ServiceNow platform, encompassing everything from intuitive form design to workflow automation and portal development, ultimately enhancing efficiency, accuracy, and user satisfaction.
+
+![Screenshot (812)](https://github.com/Sudipa333/ServiceNowIntegration/assets/75214438/c6e40d44-58b0-4204-a8a5-4c7e10d1e4a5)
+
+![Screenshot (813)](https://github.com/Sudipa333/ServiceNowIntegration/assets/75214438/7a672f5a-eb01-4c8a-ba96-f433220f2f8d)
+
+![Screenshot (814)](https://github.com/Sudipa333/ServiceNowIntegration/assets/75214438/5d5baa0c-4819-45d3-ab34-ff746a46fafa)
+
+
+
+![Screenshot (812)](https://github.com/Sudipa333/ServiceNowIntegration/assets/75214438/c6e40d44-58b0-4204-a8a5-4c7e10d1e4a5)
