@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+	$rootScope.$on('selectNote',function(event,data){
+		console.log('Listener caught NoteID: '+$rootScope.noteID);
+		c.server.get({
+			action:'getNote',
+			noteID: $rootScope.noteID
+		}).then(function(r){
+			c.data.title = r.data.note.title;
+			c.data.note = r.data.note.note;
+			c.data.noteID = r.data.note.sys_id;
+		});
+	});
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>notes_explanation</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Notes Explanation</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+if(input && input.noteID){
+	var note = new GlideRecord('u_notes');
+	if(note.get(input.noteID)){
+		if(input.action == 'getNote'){
+			data.note = {};
+			$sp.getRecordValues(data.note,note,'u_tile,u_notes,sys_id');
+		}
+	}
+}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 09:07:00</sys_created_on>
+        <sys_id>d3822ad293494210528d36718bba10ce</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Notes Explanation</sys_name>
+        <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+        <sys_update_name>sp_widget_d3822ad293494210528d36718bba10ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 10:41:49</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-danger" ng-show="c.data.noteID">
+  <div class="panel-heading clearfix">
+    <div class="row">
+      <div class="col-md-12">
+        <input class="form-control" id="note-title" ng-model="c.data.title"/>
+        
+      </div>
+    </div>
+  </div>
+  <div class="panel-body">
+    
+    <textarea class="form-control" id="note-body" ng-model="c.data.note" ></textarea>
+  </div>
+</div>]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hotel Management">055c7abe93300210528d36718bba10f4</application>
+        <file_path/>
+        <instance_id>5d061e10db827d54caf99027c596199c</instance_id>
+        <instance_name>dev189881</instance_name>
+        <name>sp_widget_d3822ad293494210528d36718bba10ce</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+	$rootScope.$on('selectNote',function(event,data){
+		console.log('Listener caught NoteID: '+$rootScope.noteID);
+		c.server.get({
+			action:'getNote',
+			noteID: $rootScope.noteID
+		}).then(function(r){
+			c.data.title = r.data.note.title;
+			c.data.note = r.data.note.note;
+			c.data.noteID = r.data.note.sys_id;
+		});
+	});
+};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;true&lt;/has_preview&gt;&lt;id&gt;notes_explanation&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {  }]]&gt;&lt;/link&gt;&lt;name&gt;Notes Explanation&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+if(input &amp;&amp; input.noteID){
+	var note = new GlideRecord('u_notes');
+	if(note.get(input.noteID)){
+		if(input.action == 'getNote'){
+			data.note = {};
+			$sp.getRecordValues(data.note,note,'u_tile,u_notes,sys_id');
+		}
+	}
+}
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-22 09:07:00&lt;/sys_created_on&gt;&lt;sys_id&gt;d3822ad293494210528d36718bba10ce&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;Notes Explanation&lt;/sys_name&gt;&lt;sys_package display_value="Hotel Management" source="x_1133380_hotel_0"&gt;055c7abe93300210528d36718bba10f4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hotel Management"&gt;055c7abe93300210528d36718bba10f4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_d3822ad293494210528d36718bba10ce&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-22 10:41:49&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="panel panel-danger" ng-show="c.data.noteID"&gt;
+  &lt;div class="panel-heading clearfix"&gt;
+    &lt;div class="row"&gt;
+      &lt;div class="col-md-12"&gt;
+        &lt;input class="form-control" id="note-title" ng-model="c.data.title"/&gt;
+        
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="panel-body"&gt;
+    
+    &lt;textarea class="form-control" id="note-body" ng-model="c.data.note" &gt;&lt;/textarea&gt;
+  &lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1920053079</payload_hash>
+        <record_name>Notes Explanation</record_name>
+        <reverted_from/>
+        <source>c55c7abe93300210528d36718bba10f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 10:41:49</sys_created_on>
+        <sys_id>40483a1a93894210528d36718bba10b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e65c0aabb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 10:41:49</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>48483a1a85894210a70d7e8cec15d1b7</update_guid>
+        <update_guid_history>48483a1a85894210a70d7e8cec15d1b7:1920053079,7176b2d60a894210b2ca56802a626d11:563728872,f95672d6fc49421045922183b57b6f67:2108518340,49947e5a94494210d330e757b7a658b3:84440167,e25472da00494210ee1eb43fbe08b26e:1205610960,b191f2d6598942106e8b060f4b715155:951552797,9b822ad20d494210bac2703d618daacf:265924267</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Notes Explanation">8481179e930d4210528d36718bba100c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 12:32:08</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>1a40160dbe0440be98a62082be18bc84</sys_id>
+        <sys_metadata>d3822ad293494210528d36718bba10ce</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notes Explanation</sys_name>
+        <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+        <sys_scope_delete display_value="">0073bd21a7d2468680003f90ed5b2b89</sys_scope_delete>
+        <sys_update_name>sp_widget_d3822ad293494210528d36718bba10ce</sys_update_name>
+        <sys_update_version display_value="sp_widget_d3822ad293494210528d36718bba10ce">40483a1a93894210528d36718bba10b8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 12:32:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

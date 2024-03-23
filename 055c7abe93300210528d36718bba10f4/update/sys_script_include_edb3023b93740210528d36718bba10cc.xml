@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1133380_hotel_0.FetchEmailId</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>tahe the user is from client side and send email id from database</description>
+        <name>FetchEmailId</name>
+        <script><![CDATA[var FetchEmailId = Class.create();
+FetchEmailId.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	getEmailId:function(){
+		var user = new GlideRecord("sys_user");
+		user.get(this.getParameter("sysparm_userId"));
+		
+		return user.email+ " ";
+	},
+    type: 'FetchEmailId'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-14 12:30:12</sys_created_on>
+        <sys_id>edb3023b93740210528d36718bba10cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FetchEmailId</sys_name>
+        <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+        <sys_update_name>sys_script_include_edb3023b93740210528d36718bba10cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-14 12:30:12</sys_updated_on>
+    </sys_script_include>
+</record_update>

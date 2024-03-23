@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Room  Booking Transform Map">5d936a4093010210528d36718bba1067</map>
+        <reference_value_field/>
+        <source_field>u_name_of_the_country</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_1133380_hotel_0_room_booking_staging_table</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-15 09:27:57</sys_created_on>
+        <sys_id>b5346ac893010210528d36718bba10e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_name_of_the_country</sys_name>
+        <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+        <sys_update_name>sys_transform_entry_b5346ac893010210528d36718bba10e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-15 09:27:57</sys_updated_on>
+        <target_field>u_countries</target_field>
+        <target_table>x_1133380_hotel_0_room_bookings</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+</record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">f1a8768a93c50210528d36718bba1048</sp_column>
+        <sp_widget display_value="Carousel">cf1a5153cb21020000f8d856634c9c3c</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 16:27:31</sys_created_on>
+        <sys_id>f36db6c293090210528d36718bba10bd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+        <sys_update_name>sp_instance_f36db6c293090210528d36718bba10bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 16:52:53</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=f36db6c293090210528d36718bba10bd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hotel Management">055c7abe93300210528d36718bba10f4</application>
+        <file_path/>
+        <instance_id>5d061e10db827d54caf99027c596199c</instance_id>
+        <instance_name>dev189881</instance_name>
+        <name>sp_instance_f36db6c293090210528d36718bba10bd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">f1a8768a93c50210528d36718bba1048</sp_column><sp_widget display_value="Carousel">cf1a5153cb21020000f8d856634c9c3c</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-21 16:27:31</sys_created_on><sys_id>f36db6c293090210528d36718bba10bd</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package><sys_policy/><sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope><sys_update_name>sp_instance_f36db6c293090210528d36718bba10bd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-21 16:52:53</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=f36db6c293090210528d36718bba10bd"/></record_update>]]></payload>
+        <payload_hash>262866053</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c55c7abe93300210528d36718bba10f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 16:52:53</sys_created_on>
+        <sys_id>46938fca93090210528d36718bba1079</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e61ee09600000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 16:52:53</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>4e938fca53090210a8f6c1ec40adf578</update_guid>
+        <update_guid_history>4e938fca53090210a8f6c1ec40adf578:262866053,0f604f46e3090210422568290fdde00a:9283927,62cdf20eccc50210711c755162b69b5d:262866053</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">49cc8f0a93490210528d36718bba1054</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 17:32:58</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>2acf76fa7ec34c00afe7938c4bceb310</sys_id>
+        <sys_metadata>f36db6c293090210528d36718bba10bd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+        <sys_scope_delete display_value="">0073bd21a7d2468680003f90ed5b2b89</sys_scope_delete>
+        <sys_update_name>sp_instance_f36db6c293090210528d36718bba10bd</sys_update_name>
+        <sys_update_version display_value="sp_instance_f36db6c293090210528d36718bba10bd">46938fca93090210528d36718bba1079</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:32:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

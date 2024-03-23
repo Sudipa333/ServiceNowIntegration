@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Refresher Home - Container 1</name>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_page display_value="refresher_home">78483e0e93c50210528d36718bba10c0</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 16:03:23</sys_created_on>
+        <sys_id>3848b64e93c50210528d36718bba10ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refresher Home - Container 1</sys_name>
+        <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+        <sys_update_name>sp_container_3848b64e93c50210528d36718bba10ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 16:03:23</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hotel Management">055c7abe93300210528d36718bba10f4</application>
+        <file_path/>
+        <instance_id>5d061e10db827d54caf99027c596199c</instance_id>
+        <instance_name>dev189881</instance_name>
+        <name>sp_container_3848b64e93c50210528d36718bba10ec</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Refresher Home - Container 1</name><order>1</order><semantic_tag/><sp_page display_value="refresher_home">78483e0e93c50210528d36718bba10c0</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-21 16:03:23</sys_created_on><sys_id>3848b64e93c50210528d36718bba10ec</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Refresher Home - Container 1</sys_name><sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package><sys_policy/><sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope><sys_update_name>sp_container_3848b64e93c50210528d36718bba10ec</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-21 16:03:23</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>1551076406</payload_hash>
+        <record_name>Refresher Home - Container 1</record_name>
+        <reverted_from/>
+        <source>c55c7abe93300210528d36718bba10f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 16:03:23</sys_created_on>
+        <sys_id>7c48b64e93c50210528d36718bba10ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e61c0b6b90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 16:03:23</sys_updated_on>
+        <type>Container</type>
+        <update_guid>b048b64ee0c50210500e5b8769bb4bee</update_guid>
+        <update_guid_history>b048b64ee0c50210500e5b8769bb4bee:1551076406</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Refresher Home - Container 1">95cc8f0a93490210528d36718bba106d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 17:32:58</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>53042b4cd51149ce89e99b24550dfcf9</sys_id>
+        <sys_metadata>3848b64e93c50210528d36718bba10ec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refresher Home - Container 1</sys_name>
+        <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+        <sys_scope_delete display_value="">0073bd21a7d2468680003f90ed5b2b89</sys_scope_delete>
+        <sys_update_name>sp_container_3848b64e93c50210528d36718bba10ec</sys_update_name>
+        <sys_update_version display_value="sp_container_3848b64e93c50210528d36718bba10ec">7c48b64e93c50210528d36718bba10ee</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:32:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>The state of hotel management room booking</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_1133380_hotel_0.hotelManagementState</name>
+        <read_roles>x_1133380_hotel_0.admin</read_roles>
+        <suffix>hotelManagementState</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 10:23:21</sys_created_on>
+        <sys_id>e996698e93410210528d36718bba10e7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_1133380_hotel_0.hotelManagementState</sys_name>
+        <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+        <sys_update_name>sys_properties_e996698e93410210528d36718bba10e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 13:14:51</sys_updated_on>
+        <type>integer</type>
+        <value>1</value>
+        <write_roles>x_1133380_hotel_0.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=e996698e93410210528d36718bba10e7"/>
+</record_update>

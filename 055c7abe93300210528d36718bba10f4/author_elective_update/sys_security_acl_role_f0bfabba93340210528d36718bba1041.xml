@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-11 17:45:19</sys_created_on>
+        <sys_id>f0bfabba93340210528d36718bba1041</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1133380_hotel_0_open.x_1133380_hotel_0.user</sys_name>
+        <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+        <sys_security_acl display_value="x_1133380_hotel_0_open">f8bfabba93340210528d36718bba103e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_f0bfabba93340210528d36718bba1041</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-11 17:45:19</sys_updated_on>
+        <sys_user_role display_value="x_1133380_hotel_0.user" name="x_1133380_hotel_0.user">055cbabe93300210528d36718bba100e</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hotel Management">055c7abe93300210528d36718bba10f4</application>
+        <file_path/>
+        <instance_id>5d061e10db827d54caf99027c596199c</instance_id>
+        <instance_name>dev189881</instance_name>
+        <name>sys_security_acl_role_f0bfabba93340210528d36718bba1041</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-11 17:45:19</sys_created_on><sys_id>f0bfabba93340210528d36718bba1041</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1133380_hotel_0_open.x_1133380_hotel_0.user</sys_name><sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package><sys_policy/><sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope><sys_security_acl display_value="x_1133380_hotel_0_open">f8bfabba93340210528d36718bba103e</sys_security_acl><sys_update_name>sys_security_acl_role_f0bfabba93340210528d36718bba1041</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-11 17:45:19</sys_updated_on><sys_user_role display_value="x_1133380_hotel_0.user" name="x_1133380_hotel_0.user">055cbabe93300210528d36718bba100e</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1579627130</payload_hash>
+        <record_name>x_1133380_hotel_0_open.x_1133380_hotel_0.user</record_name>
+        <reverted_from/>
+        <source>c55c7abe93300210528d36718bba10f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-11 17:45:19</sys_created_on>
+        <sys_id>38bfabba93340210528d36718bba1043</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e2e9e72660000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-11 17:45:19</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>7cbfabba5934021075605827e8bed342</update_guid>
+        <update_guid_history>7cbfabba5934021075605827e8bed342:-1579627130</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1133380_hotel_0_open.x_1133380_hotel_0.user">d7a2b3be93340210528d36718bba1038</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-11 17:58:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>3662d090af4843ae939bd67867f16de4</sys_id>
+        <sys_metadata>f0bfabba93340210528d36718bba1041</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1133380_hotel_0_open.x_1133380_hotel_0.user</sys_name>
+        <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+        <sys_parent display_value="">f8bfabba93340210528d36718bba103e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+        <sys_scope_delete display_value="">0073bd21a7d2468680003f90ed5b2b89</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_f0bfabba93340210528d36718bba1041</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_f0bfabba93340210528d36718bba1041">38bfabba93340210528d36718bba1043</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-11 17:58:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

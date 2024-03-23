@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>Open</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Open</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">d89b8828d9313110cedf7dffddb48f0d</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-11 17:45:12</sys_created_on>
+        <sys_id>c3af2bba93340210528d36718bba10a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open</sys_name>
+        <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+        <sys_update_name>sys_wizard_answer_c3af2bba93340210528d36718bba10a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-11 17:45:12</sys_updated_on>
+        <table/>
+        <target_url>x_1133380_hotel_0_open.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hotel Management">055c7abe93300210528d36718bba10f4</application>
+        <file_path/>
+        <instance_id>5d061e10db827d54caf99027c596199c</instance_id>
+        <instance_name>dev189881</instance_name>
+        <name>sys_wizard_answer_c3af2bba93340210528d36718bba10a5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>Open</answer><button_label/><dependent_value/><element/><name>Open</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">d89b8828d9313110cedf7dffddb48f0d</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-11 17:45:12</sys_created_on><sys_id>c3af2bba93340210528d36718bba10a5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Open</sys_name><sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package><sys_policy/><sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope><sys_update_name>sys_wizard_answer_c3af2bba93340210528d36718bba10a5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-11 17:45:12</sys_updated_on><table/><target_url>x_1133380_hotel_0_open.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>-1212592258</payload_hash>
+        <record_name>Open</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-11 17:58:22</sys_created_on>
+        <sys_id>c4b2b3be93340210528d36718bba10cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e2eaa64c60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-11 17:58:22</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>84b2b3bec4340210a3b66fae1f07ebcf</update_guid>
+        <update_guid_history>84b2b3bec4340210a3b66fae1f07ebcf:-1212592258</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-11 17:58:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>2d708503a1dd4b5992f2dbdad0a92991</sys_id>
+        <sys_metadata>c3af2bba93340210528d36718bba10a5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open</sys_name>
+        <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+        <sys_parent display_value="Task">d89b8828d9313110cedf7dffddb48f0d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+        <sys_scope_delete display_value="">0073bd21a7d2468680003f90ed5b2b89</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_c3af2bba93340210528d36718bba10a5</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_c3af2bba93340210528d36718bba10a5">c4b2b3be93340210528d36718bba10cf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-11 17:58:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

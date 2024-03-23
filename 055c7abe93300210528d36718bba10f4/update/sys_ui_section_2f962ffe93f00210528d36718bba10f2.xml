@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Room Booking Details" section_id="2f962ffe93f00210528d36718bba10f2" sys_domain="global" table="x_1133380_hotel_0_room_bookings" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_from</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-12 17:56:44</sys_created_on>
+            <sys_id>a9eb7893937c0210528d36718bba101d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Room Booking Details" display_value="Room Booking Details" name="x_1133380_hotel_0_room_bookings" sys_domain="global" view="Default view">2f962ffe93f00210528d36718bba10f2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-12 17:56:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_number_of_persons</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-12 17:56:44</sys_created_on>
+            <sys_id>21eb7893937c0210528d36718bba101e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Room Booking Details" display_value="Room Booking Details" name="x_1133380_hotel_0_room_bookings" sys_domain="global" view="Default view">2f962ffe93f00210528d36718bba10f2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-12 17:56:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_business_justification</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-12 17:56:44</sys_created_on>
+            <sys_id>a1eb7893937c0210528d36718bba101e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Room Booking Details" display_value="Room Booking Details" name="x_1133380_hotel_0_room_bookings" sys_domain="global" view="Default view">2f962ffe93f00210528d36718bba10f2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-12 17:56:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-12 17:56:44</sys_created_on>
+            <sys_id>25eb7893937c0210528d36718bba101e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Room Booking Details" display_value="Room Booking Details" name="x_1133380_hotel_0_room_bookings" sys_domain="global" view="Default view">2f962ffe93f00210528d36718bba10f2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-12 17:56:44</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_to</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-12 17:56:44</sys_created_on>
+            <sys_id>a5eb7893937c0210528d36718bba101e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Room Booking Details" display_value="Room Booking Details" name="x_1133380_hotel_0_room_bookings" sys_domain="global" view="Default view">2f962ffe93f00210528d36718bba10f2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-12 17:56:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_number_of_rooms</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-12 17:56:44</sys_created_on>
+            <sys_id>29eb7893937c0210528d36718bba101e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Room Booking Details" display_value="Room Booking Details" name="x_1133380_hotel_0_room_bookings" sys_domain="global" view="Default view">2f962ffe93f00210528d36718bba10f2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-12 17:56:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Room Booking Details</caption>
+            <header>false</header>
+            <name>x_1133380_hotel_0_room_bookings</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-11 17:05:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2f962ffe93f00210528d36718bba10f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1133380_hotel_0_room_bookings</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+            <sys_update_name>sys_ui_section_2f962ffe93f00210528d36718bba10f2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-11 17:05:39</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

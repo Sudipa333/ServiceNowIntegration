@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>u_to,u_from</col_name_string>
+        <index_col_name>7f966ffe93f00210528d36718bba100e,f3962ffe93f00210528d36718bba10fb</index_col_name>
+        <logical_table_name>x_1133380_hotel_0_room_bookings</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-03-15 12:32:38</sys_created_on>
+        <sys_id>d37e8fc093050210528d36718bba1094</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1133380_hotel_0_room_bookings</sys_name>
+        <sys_package display_value="Hotel Management" source="x_1133380_hotel_0">055c7abe93300210528d36718bba10f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Management">055c7abe93300210528d36718bba10f4</sys_scope>
+        <sys_update_name>sys_index_x_1133380_hotel_0_room_bookings_u_to_u_from</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-03-15 12:32:38</sys_updated_on>
+        <table display_value="Room Bookings" name="x_1133380_hotel_0_room_bookings">e1d52fbe93f00210528d36718bba10c4</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>
