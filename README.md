@@ -1,5 +1,7 @@
 FLLOWINGS ARE THE DERSCRIPTION ABOUT HOTEL MANAGEMENT APPLICATION-----
 
+***Application Link--- https://dev189881.service-now.com/rh?id=refresher_page
+
 1. **Room Bookings Table**: This project incorporates a Room Bookings table within the ServiceNow platform, serving as a central repository for room booking requests from users.
 
 2. **Create New Module**: The "Create New" module features a highly intuitive form for room bookings, designed with real-time business properties. This form ensures seamless interaction for customers, enhancing user experience.
